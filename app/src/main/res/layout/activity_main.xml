@@ -1,0 +1,141 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#C610D3"
+    tools:context=".MainActivity">
+
+    <androidx.constraintlayout.utils.widget.ImageFilterView
+        android:id="@+id/imageFilterView6"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:srcCompat="@drawable/hd_wallpaper_destiny_map_destiny_destiny_2"
+        tools:layout_editor_absoluteX="0dp"
+        tools:layout_editor_absoluteY="0dp" />
+
+    <TableLayout
+        android:layout_width="214dp"
+        android:layout_height="45dp"
+        android:background="#F6F5F5"
+        tools:layout_editor_absoluteX="107dp"
+        tools:layout_editor_absoluteY="201dp">
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <EditText
+                android:id="@+id/editTextTextEmailAddress7"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:inputType="textEmailAddress" />
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" />
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" />
+
+        <TableRow
+            android:layout_width="237dp"
+            android:layout_height="14dp" />
+    </TableLayout>
+
+    <TableLayout
+        android:layout_width="215dp"
+        android:layout_height="43dp"
+        android:background="#F6F5F5"
+        tools:layout_editor_absoluteX="99dp"
+        tools:layout_editor_absoluteY="349dp">
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <EditText
+                android:id="@+id/editTextTextPassword2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:inputType="textPassword" />
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" />
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" />
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" />
+    </TableLayout>
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="197dp"
+        android:layout_height="65dp"
+        android:backgroundTint="#D37A2F"
+        android:fontFamily="@font/fot"
+        android:foregroundTint="#801B1B"
+        android:text="Iniciar Seccion"
+        android:textColor="#FAF6F6"
+        android:textSize="24"
+        app:iconTint="#F3F0F0"
+        tools:layout_editor_absoluteX="107dp"
+        tools:layout_editor_absoluteY="461dp" />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/fot"
+        android:text="Login"
+        android:textColor="#ECE9E9"
+        android:textSize="34"
+        tools:layout_editor_absoluteX="146dp"
+        tools:layout_editor_absoluteY="65dp" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/fot"
+        android:text="Email"
+        android:textColor="#FBFBFB"
+        android:textSize="34sp"
+        tools:layout_editor_absoluteX="146dp"
+        tools:layout_editor_absoluteY="145dp" />
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/fot"
+        android:text="Password"
+        android:textColor="#F4F2F2"
+        android:textSize="34"
+        android:textStyle="normal|bold|italic"
+        tools:layout_editor_absoluteX="99dp"
+        tools:layout_editor_absoluteY="272dp" />
+
+    <Button
+        android:id="@+id/button2"
+        android:layout_width="197dp"
+        android:layout_height="65dp"
+        android:backgroundTint="#D37A2F"
+        android:fontFamily="@font/fot"
+        android:text="Registrarse"
+        android:textSize="18"
+        tools:layout_editor_absoluteX="107dp"
+        tools:layout_editor_absoluteY="565dp" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
